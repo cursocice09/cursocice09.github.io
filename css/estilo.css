@@ -1,0 +1,49 @@
+/*
+Selector universal (todos) *
+Selector de tiopo ( div, h1, input, h2, span, p,...)
+Selector de clase ( .nombreClase)
+Selector de identificador
+*/
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+* {
+    font-family: 'Bangers' cursive; ;
+
+}
+
+body{
+    background-color: greenyellow;
+}
+
+#cuadroPrincipal {
+    width: 40%;
+    margin: auto;
+
+    background-color: white;
+    padding: 20%;
+    
+}
+
+    .botonazul {
+        background-color: turquoise;
+        color: lightpink;
+}
+
+#cuadroPrincipal p {/* Los párrafos dentro del el elemento con id "cuadroPrincipal */
+    text-align: center;
+}
+
+.ancho100 {
+       width: 100%;
+       padding: 5PX;  
+       margin-bottom: 15px
+       
+}
+
+.textoChico {
+    font-size: 0.6em;
+}
+
+.fondoGris {
+    background-color: gainsboro;    
+    }
